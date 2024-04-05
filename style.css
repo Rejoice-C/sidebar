@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial' , sans-serif;
+}
+nav{
+    margin-top: -1px;
+    /* margin: 100%; */
+    width: 30%;
+    height: 550px;
+    max-width: 600px;
+    background: #012d2c;
+    color:rgb(250, 250, 8);
+    display: flex;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+.openMenu{
+    padding: 15px;
+    font-size: 30px;
+    color:rgb(250, 250, 8);
+    background: rgb(86, 26, 26);
+}
+
+.closeMenu{
+    padding: 15px;
+    font-size: 40px;
+    color:rgb(250, 250, 8);
+}
+
+nav .mainMenu{
+    /* display: flex; */
+    list-style: none;
+}
+nav .mainMenu li a {
+display: inline-block;
+padding: 30px;
+text-decoration: none;
+color: #e1e7e7;
+font-size: 30px;
+}
+nav .mainMenu li a:hover {
+    background-color: rgb(244, 106, 26);
+}
+nav .openMenu {
+    font-size: 20px;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    background-color: rgb(255, 94, 0);
+    
+}
+nav .mainMenu .closeMenu {
+    font-size: 20px;
+    margin: 20px;
+    display: none;
+    cursor: pointer
+}
+
+nav .logo{
+    margin: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: left;
+}
+
+nav .mainMenu .closeMenu {
+    /* display: block; */
+    /* position: absolute; */
+    top: 20px;
+    right: 20px;
+}
+nav .openMenu {
+    display: block;
+    
+}
+nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 94, 0);
+    font-size: 1.9rem;
+}
